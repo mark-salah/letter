@@ -44,7 +44,7 @@
       كان نفسي اعملك حاجه للذكرى كدة تفتكريني بيها لما اجي في بالك<br></br>
       شايف دي اقل حاجه ممكن اقدمها يعني ممكن لحد مايجي في دماغي حاجه عليها القيمه يعني <br></br>
       يارب يعجبك عمتا<br></br>
-      حاجة من ريحتي🫣😂
+      حاجة من ريحتي😂
     </p>
   </section>
 
@@ -66,7 +66,7 @@
 
   // ── Floating petals ──
   const petalLayer = document.getElementById('petals');
-  const petalChars = ['❤️','❤️','♥','❥'];
+  const petalChars = ['❤️','♥'];
   function spawnPetal() {
     const p = document.createElement('div');
     p.className = 'petal';
@@ -79,7 +79,7 @@
     petalLayer.appendChild(p);
     setTimeout(() => p.remove(), (dur + dur) * 1000);
   }
-  for (let i = 0; i < 28; i++) spawnPetal();
+  for (let i = 0; i < 12; i++) spawnPetal();
   setInterval(spawnPetal, 1200);
 
   // ── Canvas hearts ──
