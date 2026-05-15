@@ -266,3 +266,10 @@
       80%  { opacity: .5; }
       100% { transform: translateY(110vh) rotate(420deg) scale(.5); opacity: 0; }
     }
+
+    .arabic {
+      font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    text-align: center;
+    font-style:normal; 
+    }
